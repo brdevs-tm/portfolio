@@ -9,6 +9,7 @@ import "./index.css"; // Import custom styles
 import DownloadBtn from "../../components/ResumeDownloadBtn/DownloadBtn";
 
 function HomePage() {
+  document.title = "Home Page";
   const texts = ["a Front End developer", "Gamer", "Graphic Designer"];
   const [gradient, setGradient] = useState("");
 
